@@ -76,13 +76,14 @@ The agent saves generated plans to local memory using a JSON file.
 ## Project Structure
 
 ```text
-StudyTaskAgent/
+StudyTaskAgent-Final/
 ├── app.py
 ├── agent.py
 ├── memory.py
 ├── exporter.py
 ├── requirements.txt
 ├── README.md
+├── DESIGN_EVOLUTION.md
 ├── screenshots/
 └── .gitignore
 ```
@@ -95,6 +96,7 @@ StudyTaskAgent/
 | `exporter.py` | Builds a downloadable text version of the generated plan |
 | `requirements.txt` | Lists required Python packages |
 | `screenshots/` | Contains screenshots of the working prototype |
+| `DESIGN_EVOLUTION.md` | Records the design evolution, testing process, and improvements made during development |
 
 ---
 
